@@ -54,7 +54,7 @@ public class ExampleResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public String getJson() {
-        return "Example Config Property " + exampleProperty;
+        return "{\"Example Config Property\" : \"" + exampleProperty + "\"}";
     }
 
 }
